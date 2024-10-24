@@ -1,0 +1,21 @@
+node_modules
+# Node modules
+node_modules/
+
+# Artefacts generated during build
+.next/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*~
+
+# Other files to ignore
+*.DS_Store
+
+package-lock.json
