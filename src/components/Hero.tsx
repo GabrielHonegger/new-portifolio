@@ -21,13 +21,13 @@ const Hero = () => {
     navigator.clipboard.writeText(text)
     .then(() => {
         toast({
-            variant: "destructive",
             title: "E-mail copiado!"
           })
     })
     .catch(err => {
         console.error('Failed to copy: ', err);
         toast({
+          variant: "destructive",
           title: "Erro ao copiar!"
         })
     });
