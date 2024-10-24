@@ -201,7 +201,7 @@ const tools1 = [
       name: "Zod",
       designation: "Data Validation",
       image:
-        "/logos/zod.png",
+        "/logos/zod.jpg",
     },
     {
       id: 3,
