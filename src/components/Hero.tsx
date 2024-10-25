@@ -56,16 +56,18 @@ const Hero = () => {
                 em escala regional ou global!
               </p>
               <div className="flex w-[300px] m-auto mt-8 justify-center gap-4">
-                <Modal>
-                  <ModalTrigger className="bg-black dark:bg-white rounded-full border-2 border-white dark:text-black text-white flex justify-center group/modal-btn">
-                    <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-                      Baixar Currículo
-                    </span>
-                    <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
-                      <FaFileDownload />
-                    </div>
-                  </ModalTrigger>
-                </Modal>
+                <Link href="/docs/gabriel-honegger-cv.pdf" download="gabriel-honegger-cv">
+                  <Modal>
+                    <ModalTrigger className="bg-black dark:bg-white rounded-full border-2 border-white dark:text-black text-white flex justify-center group/modal-btn">
+                      <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
+                        Baixar Currículo
+                      </span>
+                      <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
+                        <FaFileDownload />
+                      </div>
+                    </ModalTrigger>
+                  </Modal>
+                </Link>
                 <Modal>
                   <ModalTrigger className="bg-white rounded-full px-8 dark:bg-white dark:text-black text-black flex justify-center group/modal-btn">
                     <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
