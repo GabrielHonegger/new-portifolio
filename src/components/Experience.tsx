@@ -33,7 +33,7 @@ const Experience = () => {
                 translateZ="60"
                 className="text-slate-700 m-auto text-md max-w-sm mt-2 "
                 >
-                <IoTime className='inline mr-1 -mt-1' />4 meses
+                <IoTime className='inline mr-1 -mt-1' />1 ano
                 </CardItem>
                 <CardItem
                 as="div"
