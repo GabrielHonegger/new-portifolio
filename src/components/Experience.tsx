@@ -40,8 +40,6 @@ const Experience = () => {
                 translateZ="60"
                 className="text-slate-700 m-auto text-center md:text-left text-md px-7 md:px-12 mt-2 "
                 >
-                Durante os últimos quatro meses, atuei como freelancer em projetos de desenvolvimento full stack, 
-                onde fui responsável por:
                 <ul className='flex md:mt-1 mt-3 flex-col md:gap-1 gap-2'>
                   <li>- <b>Desenvolvimento de Aplicações Web</b>: Criação de aplicações utilizando 
                   tecnologias como HTML, CSS, JavaScript, e frameworks como React e Next.js para o 

@@ -50,28 +50,13 @@ const Hero = () => {
               </h2>
               <Image className="m-auto mt-5 w-[65%] block md:hidden rounded-full" src="/me-job.png" alt="profile-picture" width={500} height={500}/>
               <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-                Sou apaixonado por desafios e adoro ter que encontrar soluções para problemas complexos
-                que parecem <Link target='_blank' href="https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Fallout">'impossíveis'</Link>. Isso realmente me motiva, e transformar obstáculos em oportunidades é uma das minhas maiores satisfações. 
-                Estou animado para contribuir em projetos web que gerem impacto, seja
-                em escala regional ou global!
+              Transformo visões digitais em realidade. Minha paixão por web design vai além da criação de sites bonitos - busco desenvolver experiências online únicas e impactantes que elevam a presença digital dos meus clientes.
               </p>
               <div className="flex w-[300px] m-auto mt-8 justify-center gap-4">
-                <Link href="/docs/gabriel-honegger-cv.pdf" download="gabriel-honegger-cv">
-                  <Modal>
-                    <ModalTrigger className="bg-black dark:bg-white rounded-full border-2 border-white dark:text-black text-white flex justify-center group/modal-btn">
-                      <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-                        Baixar Currículo
-                      </span>
-                      <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
-                        <FaFileDownload />
-                      </div>
-                    </ModalTrigger>
-                  </Modal>
-                </Link>
                 <Modal>
                   <ModalTrigger className="bg-white rounded-full px-8 dark:bg-white dark:text-black text-black flex justify-center group/modal-btn">
                     <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-                      Contato
+                      Entrar em Contato
                     </span>
                     <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-black z-20">
                       <IoMail />
