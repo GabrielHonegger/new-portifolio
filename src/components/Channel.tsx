@@ -25,7 +25,7 @@ const Channel = () => {
                     borderRadius="1.75rem"
                     className="bg-white px-24 md:px-16 py-10 flex flex-col dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
-                    <h2 className='text-4xl md:text-5xl font-bold mt-2'>+17.000</h2>
+                    <h2 className='text-4xl md:text-5xl font-bold mt-2'>+22.000</h2>
                     <h3 className='text-xl mt-3 text-center'>Visualizações</h3>
                 </Button>
             </div>
